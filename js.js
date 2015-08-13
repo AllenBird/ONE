@@ -28,6 +28,25 @@ var touchinit = function () {
 	
 	$("#padg4_circle_button").on('touchstart', function(){  
 	   console.log('touchstart padg4....');
+	   var eachli = function () {
+	   	 for (var i = 1; i < 20; i++) {
+	   	 	if ($("#p4_b"+i).hasClass("active")){
+	   	 		continue;
+	   	 	}
+	   	 	else{
+	   	 		return "#p4_b"+i;
+	   	 	}
+	   	 }
+	   	 return "full";
+	   }
+
+	   var id = eachli();
+	   if(id == "full"){
+	   		alert("µãÂúÁË");
+	   }
+	   else{
+	   		$(id).addClass("active");
+	   }
 	})  
 
 	$('#padg3_circle_button').on('touchstart', function(){  
