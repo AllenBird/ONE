@@ -19,13 +19,8 @@
 .global_circle_button{width: 90px; height:90px; left:50%; bottom:0%; margin-left:-45px; border-radius:45px; margin-bottom:20px;  z-index:9999; background-color:rgba(255,255,255,0.4);}
 .global_circle_button div{width: 70px; height:70px; border-radius:35px; background-color:#888888;   display:block; margin:10px; background-color:rgba(255,255,255,0.6);}
 
-
-
-
-
 .global_plant_dot{ width: 6px; height:6px; z-index:50; background-color:#777777; border-radius:3px; box-shadow:0px 0px 3px #888888;}
 
- 
 
 /*page1*/
 .p1_earth{ width: 274px; height:282px; left:50%; top:50%; margin-left:-137px; margin-top:-190px; z-index:99;}
@@ -47,17 +42,15 @@
 .p1_dot4{right:0%; top:50%; margin-right:5px; margin-top:-0px;}
 
 .p1_m1{left:0%; top:0%; margin-left: 0px; margin-top: 0px;}
-
  
 
 .p1_satellite{ width: 254px; height:239px; right:0%; bottom:0%; margin-right:-100px; margin-bottom:20px; z-index:100;}
-.p1_satellite img{margin-left:-666px; margin-top:0px;}/*-666 -920  -1174 -1428*/
 
-/*.p1_satellite1 img{margin-left:-666px; margin-top:0px;}
+.p1_satellite1 img{margin-left:-666px; margin-top:0px;}
 .p1_satellite2 img{margin-left:-920px; margin-top:0px;}
 .p1_satellite3 img{margin-left:-1174px; margin-top:0px;}
 .p1_satellite4 img{margin-left:-1428px; margin-top:0px;}
-*/
+
 .hide {
   display: none;
 }
@@ -121,7 +114,10 @@
 .p2_plant_bg img{margin-left:-280px; margin-top:-827px;}
 
 .p2_wave{ width: 263px; height:294px; left:0%; bottom:0%; margin-left:144px; margin-bottom:250px; z-index:200;}
-.p2_wave img{margin-left:-1173px; margin-top:-239px;}/*-384 -647  -910 -1173*/
+.p2_wave1 img{margin-left:-384px; margin-top:-239px;}
+.p2_wave2 img{margin-left:-647px; margin-top:-239px;}
+.p2_wave3 img{margin-left:-910px; margin-top:-239px;}
+.p2_wave4 img{margin-left:-1173px; margin-top:-239px;}
 
 
 .p2_talk{ width: 156px; height:128px; left:0%; bottom:0%; margin-left:165px; margin-bottom:200px; z-index:100;}
@@ -133,13 +129,14 @@
 
 
 /*page3*/
-
-
 .p3_plant_bg{ width: 260px; height:390px; right:0%; bottom:0%; margin-right:-0px; margin-bottom:-0px; z-index:60;}
 .p3_plant_bg img{margin-left:-1699px; margin-top:0px;}
 
 .p3_wave{ width: 263px; height:294px; left:0%; bottom:0%; margin-left:-15px; margin-bottom: 223px; z-index:200;}
-.p3_wave img{margin-left:-1173px; margin-top:-533px;}/*-384 -647  -910 -1173*/
+.p3_wave1 img{margin-left:-384px; margin-top:-533px;}
+.p3_wave2 img{margin-left:-647px; margin-top:-533px;}
+.p3_wave3 img{margin-left:-910px; margin-top:-533px;}
+.p3_wave4 img{margin-left:-1173px; margin-top:-533px;}
 
 .p3_rocket{ width: 81px; height:64px; left:50%; bottom:0%; margin-left:0px; margin-bottom: 0px; z-index:990;}
 .p3_rocket img{margin-left:-498px; margin-top:-170px;}/*-417 -498 */
